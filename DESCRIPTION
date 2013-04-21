@@ -1,0 +1,20 @@
+Package: coxph2table
+Type: Package
+Title: Fits and pretty-prints univariate or multivariate Cox models
+Version: 1.0
+Date: 2012-06-25
+Author: Giovanni d'Ario
+Maintainer: Giovanni d'Ario <giovanni.dario@unil.ch>
+Description: The main function in this package, coxph2table, fits a univariate
+    or multivariate Cox regression model and returns either a LaTex or textual
+    output, or a simple data frame with a format that is immediately usable for
+    publications and/or reports.
+License: Artistic
+Depends:
+    xtable
+LazyData: TRUE
+LazyDataCompression: bzip2
+Collate:
+    'coxph2table.R'
+    'dataMVpaperNoNA.R'
+    'dataMVpaper.R'
